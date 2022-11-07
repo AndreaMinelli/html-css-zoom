@@ -10,13 +10,13 @@
     <title>Zoom</title>
 </head>
 <body>
-    <header class="brd">
+    <header>
         <span><i class="fa-solid fa-table-cells"></i> Speaker View</span>
         <span><i class="fa-solid fa-maximize"></i></span>
     </header>
-    <main class="brd">
-        <div class="container brd">
-            <div class="row">
+    <main>
+        <div class="container">
+            <div class="row flx">
                 <div class="column">
                     <div class="user-card">
                         <img src="https://picsum.photos/0/0/?random=1" alt="User-image">
@@ -230,6 +230,60 @@
             </div>
         </div>
     </main>
-    <footer class="brd"></footer>
+    <footer class="flx">
+        <!-- Left section -->
+        <div class="footer-interaction flx al-center">
+            <div class="icon pointer">
+                <i class="fa-solid fa-microphone fa-lg"></i>
+                <span class="icon-description">Mute</span>
+            </div>
+            <span class="more-options pointer"><i class="fa-solid fa-angle-up fa-2xs"></i></span>
+            <div class="icon pointer">
+                <i class="fa-solid fa-video fa-lg"></i>
+                <span class="icon-description">Stop Video</span>
+            </div>
+            <span class="more-options pointer"><i class="fa-solid fa-angle-up fa-2xs"></i></span>
+        </div>
+        <!-- Center section -->
+        <div class="footer-interaction flx al-center">
+            <div class="icon pointer">
+                <i class="fa-solid fa-user-plus fa-lg"></i>
+                <span class="icon-description">Invite</span>
+            </div>
+            <div class="icon pointer">
+                <i class="fa-solid fa-user-group fa-lg"></i>
+                <span class="icon-description">Menage Partecipans</span>
+            </div>
+            <div class="icon pointer">
+                <i class="fa-solid fa-chart-column fa-lg"></i>
+                <span class="icon-description">Polling</span>
+            </div>
+            <div class="icon pointer">
+                <i class="fa-solid fa-share-from-square fa-lg"></i>
+                <span class="icon-description">Share screen</span>
+            </div>
+            <span class="more-options pointer"><i class="fa-solid fa-angle-up fa-2xs"></i></span>
+            <div class="icon pointer">
+                <i class="fa-solid fa-comment fa-lg"></i>
+                <span class="icon-description">Chat</span>
+            </div>
+            <div class="icon pointer">
+                <i class="fa-solid fa-record-vinyl fa-lg"></i>
+                <span class="icon-description">Record</span>
+            </div>
+            <div class="icon pointer">
+                <i class="fa-solid fa-table-cells-large fa-lg"></i>
+                <span class="icon-description">Breakout rooms</span>
+            </div>
+            <div class="icon pointer">
+                <i class="fa-solid fa-ellipsis fa-lg"></i>
+                <span class="icon-description">More</span>
+            </div>
+        </div>
+        <!-- Right section -->
+        <div class="end-call">
+           <button id="close-meeting" class="pointer">End meeting</button>
+        </div>
+    </footer>
 </body>
 </html>
