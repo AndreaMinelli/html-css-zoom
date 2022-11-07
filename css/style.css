@@ -5,3 +5,33 @@
     box-sizing: border-box;
 }
 
+/* Generals */
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    height: 50px;
+}
+
+main{
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+footer{
+    height: 100px;
+}
+
+/* Utils */
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.brd{
+    border: 1px solid white;
+}
